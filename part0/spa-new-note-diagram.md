@@ -1,4 +1,3 @@
-:::mermaid 
     sequenceDiagram
         participant Browser
         participant Server
@@ -35,4 +34,3 @@
         deactivate Server
 
         Note right of Browser: The Browser executes the callback function that rerenders the notes without reloading the page
-:::
